@@ -1,0 +1,62 @@
+.contactForm input,
+textarea {
+  display: block;
+  width: 500px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactForm textarea {
+  height: 100px;
+}
+
+Button {
+  height: 3rem;
+  margin-top: 25px;
+}
+
+textarea {
+  margin-bottom: 25px;
+}
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding-top: 0px;
+}
+
+.contactLinks ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  box-shadow: inset 0 0 0 0 white;
+  color: white;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contactLinks a:hover {
+  font-size: 3rem;
+  font-weight: bold;
+  box-shadow: inset 400px 0 0 0 white;
+  color: #770000;
+}
+
+.contactContainer {
+  background-image: url("../../assets//images/GroupExercise.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+}
+
+.contactHeader {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 75px;
+}
+
+.inputLabels {
+  color: white;
+}

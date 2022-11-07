@@ -1,0 +1,15 @@
+.FAQHeader {
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.FAQbutton:hover {
+  background-color: black !important;
+  color: white;
+}
+
+.css-1hv8oq8-MuiStepLabel-label {
+  font-size: 2rem !important;
+}

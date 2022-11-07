@@ -1,0 +1,5 @@
+.homeContainer {
+  background-image: url("../../assets/images/VectorBackground.jpeg");
+  background-size: contain;
+  background-attachment: fixed;
+}

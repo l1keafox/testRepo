@@ -1,0 +1,29 @@
+Link a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+}
+
+.css-1uwgr7b-MuiTypography-root {
+  color: white;
+  font-size: 1.5rem;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.navlinks {
+  text-decoration: none;
+  justify-content: center;
+  width: 100px;
+}
