@@ -6,10 +6,10 @@ import FAQ from "../FAQ/FAQ.js";
 import Blog from "../Blog/Blog.js";
 import Contact from "../Contact/Contact.js";
 import "./home.css";
-
+//id="home" className="homeContainer"
 function Home() {
   return (
-    <div id="home" className="homeContainer">
+    <div >
       <Landing />
       <About />
       <Container maxWidth="lg">
