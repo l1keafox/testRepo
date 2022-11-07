@@ -9,18 +9,19 @@ import Blog from "./pages/Blog/Blog.js";
 import "./App.css";
 
 function App() {
-  return (
+//   <Routes>
+//   <Route path="/" element={<Home />} />
+//   <Route path="/#landing" element={<Landing />} />
+//   <Route path="/#about" element={<About />} />
+//   <Route path="/#contact" element={<Contact />} />
+//   <Route path="/#blog" element={<Blog />} />
+// </Routes>
+//<Router>
+//</Router>
+return (
     <>
-      <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/#landing" element={<Landing />} />
-          <Route path="/#about" element={<About />} />
-          <Route path="/#contact" element={<Contact />} />
-          <Route path="/#blog" element={<Blog />} />
-        </Routes>
-      </Router>
+        <Home />
     </>
   );
 }
