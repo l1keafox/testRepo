@@ -2,7 +2,7 @@
   "name": "testcase",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://likeafox.github.io/testRepo",
+  "homepage": "http://l1keafox.github.io/testRepo",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@emotion/react": "^11.10.5",
