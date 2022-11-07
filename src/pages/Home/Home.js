@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "@mui/system";
-import Landing from "../Landing/Landing.js";
-import About from "../About/About.js";
-import FAQ from "../FAQ/FAQ.js";
-import Blog from "../Blog/Blog.js";
-import Contact from "../Contact/Contact.js";
+import Landing from "../../components/Landing/Landing.js";
+import About from "../../components/About/About.js";
+import FAQ from "../../components/FAQ/FAQ.js";
+import Blog from "../../components/Blog/Blog.js";
+import Contact from "../../components/Contact/Contact.js";
 import "./home.css";
 //id="home" className="homeContainer"
 function Home() {

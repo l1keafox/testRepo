@@ -1,5 +1,4 @@
 import * as React from "react";
-import { HashLink as Link } from "react-router-hash-link";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -79,9 +78,7 @@ function NavBar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <Link smooth to="/">
                 <MenuIcon />
-              </Link>
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -101,52 +98,13 @@ function NavBar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <Link
-                smooth
-                to="#about"
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  margin: "0px",
-                }}
-                key={pages[0]}
-                onClick={handleCloseNavMenu}
-                className="navlinks"
-              >
                 {pages[0]}
-              </Link>
-              <Link
-                smooth
-                to="#FAQ"
-                style={{ textDecoration: "none", color: "white" }}
-                key={pages[1]}
-                onClick={handleCloseNavMenu}
-                className="navlinks"
-              >
                 {pages[1]}
-              </Link>
-              <Link
-                smooth
-                to="#blog"
-                style={{ textDecoration: "none", color: "white" }}
-                key={pages[2]}
-                onClick={handleCloseNavMenu}
-                className="navlinks"
-              >
                 {pages[2]}
-              </Link>
-              <Link
-                smooth
-                to="#contact"
-                style={{ textDecoration: "none", color: "white" }}
-                key={pages[3]}
-                onClick={handleCloseNavMenu}
-                className="navlinks"
-              >
                 {pages[3]}
-              </Link>
             </Menu>
           </Box>
+          
           <FitnessCenterIcon
             sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
           />
@@ -169,26 +127,18 @@ function NavBar() {
             ATG
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            <Link smooth to="#about">
               <Button>
                 <Typography textAlign="center">{pages[0]}</Typography>
               </Button>
-            </Link>
-            <Link smooth to="#FAQ">
               <Button>
                 <Typography textAlign="center">{pages[1]}</Typography>
               </Button>
-            </Link>
-            <Link smooth to="#blog">
               <Button>
                 <Typography textAlign="center">{pages[2]}</Typography>
               </Button>
-            </Link>
-            <Link smooth to="#contact">
               <Button>
                 <Typography textAlign="center">{pages[3]}</Typography>
               </Button>
-            </Link>
           </Box>
         </Toolbar>
       </Container>

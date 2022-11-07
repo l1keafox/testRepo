@@ -1,17 +1,17 @@
 import React from "react";
 import "./landing.css";
 import image from "../../assets/images/ExerciseWallpaper.jpg";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 function Landing() {
   return (
     <div className="container" id="landing">
       <div className="landingBg">
-        <img src={image} alt="exercise wallpaper"></img>
+        {/* <img src={image} alt="exercise wallpaper"></img> */}
       </div>
       <div className="centered">
         <div>Transform</div>
-        <TypeAnimation
+        {/* <TypeAnimation
           sequence={[
             1000,
             "Your Body",
@@ -25,7 +25,7 @@ function Landing() {
           speed={10}
           cursor={true}
           repeat={Infinity}
-        />
+        /> */}
         <div>
           With{" "}
           <span
